@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+
+html
+{
+	background-image: url("photography-manuel-martini-02.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	
+}
+
+.navbar {
+  width: 100%;
+   overflow: auto;
+	top:auto;
+}
+
+/* Navbar links */
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  font-size: 17px;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  
+	color: #FFFFFF;
+	font-size: 20px;
+}
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+.navigation {
+	color:#FFFFFF;
+}
+.navigation {
+  width: 100%;
+	top:auto;
+	text-align: center;
+}
+
+	
+
+
+/* Navbar icon links */
+.navigation a {
+   text-align: center;
+  padding: 12px;
+  color: white;
+  font-size:25px;
+  
+}
+
+/* Navbar icon on mouse-over */
+.navigation a:hover {
+  
+	color: #FFFFFF;
+	text-decoration: line-through;
+	text-decoration-color: #FF0509;
+	
+}
+
+.navigation i{
+	font-size: 25px;
+}
